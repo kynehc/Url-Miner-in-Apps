@@ -1,0 +1,41 @@
+start at:2020-05-29 16:13:44.823389
+
+[*] Analyzing APK ...
+
+[*]url patern found:
+
+[*]url class path found:
+FOUND: 1 http://aliusergw-1-64.test.alipay.net/mgw.htm
+XREFto for string 'http://aliusergw-1-64.test.alipay.net/mgw.htm' in
+Lcom/alipay/apmobilesecuritysdk/face/APSecuritySdk$RunningTask;:Lcom/alipay/apmobilesecuritysdk/face/APSecuritySdk$RunningTask;->run()V [access_flags=public] @ 0x10dd08
+
+FOUND: 2 http://m.alipay.com/?action=h5quit
+XREFto for string 'http://m.alipay.com/?action=h5quit' in
+Lcom/alipay/sdk/app/H5AuthActivity$b;:Lcom/alipay/sdk/app/H5AuthActivity$b;->shouldOverrideUrlLoading(Landroid/webkit/WebView; Ljava/lang/String;)Z [access_flags=public final] @ 0x10eaf8
+Lcom/alipay/sdk/app/H5PayActivity$b;:Lcom/alipay/sdk/app/H5PayActivity$b;->shouldOverrideUrlLoading(Landroid/webkit/WebView; Ljava/lang/String;)Z [access_flags=public final] @ 0x10f5dc
+
+FOUND: 3 http://mcgw.alipay.com/gateway.do
+XREFto for string 'http://mcgw.alipay.com/gateway.do' in
+Lcom/alipay/sdk/cons/GlobalConstants;:Lcom/alipay/sdk/cons/GlobalConstants;-><clinit>()V [access_flags=static constructor] @ 0x1129e4
+
+FOUND: 4 http://co.baifubao.com/content/mywallet/mobile/score_tip.cfg
+XREFto for string 'http://co.baifubao.com/content/mywallet/mobile/score_tip.cfg' in
+Lcom/baidu/paysdk/beans/e;:Lcom/baidu/paysdk/beans/e;->getUrl()Ljava/lang/String; [access_flags=public] @ 0x1f4c1c
+
+FOUND: 5 http://db-testing-eb07.db01.baidu.com:8666/success.html
+XREFto for string 'http://db-testing-eb07.db01.baidu.com:8666/success.html' in
+Lnet/gzjunbo/flowleifeng/presenter/pay/interfaces/FlowPayInterfaceManager;:Lnet/gzjunbo/flowleifeng/presenter/pay/interfaces/FlowPayInterfaceManager;->createOrderInfo(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String; [access_flags=public] @ 0x244900
+
+FOUND: 6 http://121.9.242.33:19253/WeixinPayNotify.aspx
+XREFto for string 'http://121.9.242.33:19253/WeixinPayNotify.aspx' in
+Lnet/gzjunbo/flowleifeng/presenter/pay/interfaces/FlowPayInterfaceManager;:Lnet/gzjunbo/flowleifeng/presenter/pay/interfaces/FlowPayInterfaceManager;->genProductArgs(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String; [access_flags=public] @ 0x244c90
+
+FOUND: 7 http://co.baifubao.com/content/resource/HTML5/eptos.html
+XREFto for string 'http://co.baifubao.com/content/resource/HTML5/eptos.html' in
+Lcom/baidu/paysdk/ui/WebViewActivity;:Lcom/baidu/paysdk/ui/WebViewActivity;->onCreate(Landroid/os/Bundle;)V [access_flags=public] @ 0x267890
+
+Total Found: 7
+
+end at:2020-05-29 16:13:59.536002
+total time:0:00:14.712613
+Maximum Memory Usage: 494.27734375 MB

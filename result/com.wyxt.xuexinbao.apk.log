@@ -1,0 +1,114 @@
+start at:2020-05-29 16:13:11.163909
+
+[*] Analyzing APK ...
+
+[*]url patern found:
+
+[*]url class path found:
+FOUND: 1 http://secclientgw.alipay.com/mobile/switch.xml
+XREFto for string 'http://secclientgw.alipay.com/mobile/switch.xml' in
+Lcom/alipay/mobilesecuritysdk/model/Upload;:Lcom/alipay/mobilesecuritysdk/model/Upload;->communicateSwitch()Lcom/alipay/mobilesecuritysdk/datainfo/GeoResponseInfo; [access_flags=public] @ 0xe905c
+
+FOUND: 2 http://m.alipay.com/?action=h5quit
+XREFto for string 'http://m.alipay.com/?action=h5quit' in
+Lcom/alipay/sdk/app/H5PayActivity$MyWebViewClient;:Lcom/alipay/sdk/app/H5PayActivity$MyWebViewClient;->shouldOverrideUrlLoading(Landroid/webkit/WebView; Ljava/lang/String;)Z [access_flags=public] @ 0xeb288
+Lcom/alipay/sdk/app/H5AuthActivity$MyWebViewClient;:Lcom/alipay/sdk/app/H5AuthActivity$MyWebViewClient;->shouldOverrideUrlLoading(Landroid/webkit/WebView; Ljava/lang/String;)Z [access_flags=public] @ 0xea15c
+
+FOUND: 3 http://mcashier.stable.alipay.net/home/exterfaceAssign.htm?
+XREFto for string 'http://mcashier.stable.alipay.net/home/exterfaceAssign.htm?' in
+Lcom/alipay/sdk/app/PayTask;:Lcom/alipay/sdk/app/PayTask;->a()Ljava/lang/String; [access_flags=private] @ 0xec144
+Lcom/alipay/sdk/app/PayTask;:Lcom/alipay/sdk/app/PayTask;->b()Ljava/lang/String; [access_flags=private] @ 0xec55c
+
+FOUND: 4 http://mobileclientgw.stable.alipay.net/home/exterfaceAssign.htm?
+XREFto for string 'http://mobileclientgw.stable.alipay.net/home/exterfaceAssign.htm?' in
+Lcom/alipay/sdk/app/PayTask;:Lcom/alipay/sdk/app/PayTask;->a()Ljava/lang/String; [access_flags=private] @ 0xec144
+Lcom/alipay/sdk/app/PayTask;:Lcom/alipay/sdk/app/PayTask;->b()Ljava/lang/String; [access_flags=private] @ 0xec55c
+
+FOUND: 5 http://
+XREFto for string 'http://' in
+Lcom/alipay/sdk/auth/AuthActivity;:Lcom/alipay/sdk/auth/AuthActivity;->a(Lcom/alipay/sdk/auth/AuthActivity; Ljava/lang/String;)Z [access_flags=static synthetic] @ 0xedbb0
+Lcom/google/zxing/client/result/optional/NDEFURIResultParser;:Lcom/google/zxing/client/result/optional/NDEFURIResultParser;-><clinit>()V [access_flags=static constructor] @ 0x228cb4
+Lcom/baidu/location/K;:Lcom/baidu/location/K;->f()Z [access_flags=private] @ 0x22167c
+Lcom/wyxt/xuexinbao/activity/XXBScratchCardActivity;:Lcom/wyxt/xuexinbao/activity/XXBScratchCardActivity;->onCreate(Landroid/os/Bundle;)V [access_flags=protected] @ 0x249b8c
+Lcom/alipay/sdk/auth/AuthActivity;:Lcom/alipay/sdk/auth/AuthActivity;->a(Ljava/lang/String;)Z [access_flags=private] @ 0xedc60
+Lcom/google/zxing/client/result/URIParsedResult;:Lcom/google/zxing/client/result/URIParsedResult;->massageURI(Ljava/lang/String;)Ljava/lang/String; [access_flags=private static] @ 0x1ed660
+Lcom/baidu/kirin/StatUpdateAgent;:Lcom/baidu/kirin/StatUpdateAgent;->b(Landroid/content/Context; Z Lcom/baidu/kirin/CheckUpdateListener;)V [access_flags=private static] @ 0x10114c
+Lcom/baidu/wallet/core/a/b;:Lcom/baidu/wallet/core/a/b;->a(Ljava/lang/String; Ljava/lang/String; Z Z Z)J [access_flags=public] @ 0x130b44
+Lu/aly/bv;:Lu/aly/bv;->e(Ljava/lang/String;)Z [access_flags=public static] @ 0x1b7440
+Lcom/baidu/location/K;:Lcom/baidu/location/K;->g()V [access_flags=private] @ 0x221738
+Lcom/wyxt/xuexinbao/fragment/XXBInfoImprFourFragment$MyReceiver;:Lcom/wyxt/xuexinbao/fragment/XXBInfoImprFourFragment$MyReceiver;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0x19a728
+
+FOUND: 6 http://mcgw.alipay.com/gateway.do
+XREFto for string 'http://mcgw.alipay.com/gateway.do' in
+Lcom/alipay/sdk/cons/GlobalConstants;:Lcom/alipay/sdk/cons/GlobalConstants;-><clinit>()V [access_flags=static constructor] @ 0xeeed4
+
+FOUND: 7 http://www.baidu.com
+XREFto for string 'http://www.baidu.com' in
+Lcom/baidu/paysdk/login/LoginActivity;:Lcom/baidu/paysdk/login/LoginActivity;->buildUrl(I)Ljava/lang/String; [access_flags=private] @ 0x224ab8
+Lcom/baidu/paysdk/login/LoginActivity$CustWebViewClient;:Lcom/baidu/paysdk/login/LoginActivity$CustWebViewClient;->onPageStarted(Landroid/webkit/WebView; Ljava/lang/String; Landroid/graphics/Bitmap;)V [access_flags=public] @ 0x122200
+
+FOUND: 8 http://co.baifubao.com/content/mywallet/mobile/score_tip.cfg
+XREFto for string 'http://co.baifubao.com/content/mywallet/mobile/score_tip.cfg' in
+Lcom/baidu/paysdk/beans/j;:Lcom/baidu/paysdk/beans/j;->getUrl()Ljava/lang/String; [access_flags=public] @ 0x1dd9e0
+
+FOUND: 9 http://www.xuexinbao.cn/apiv2/login/fillpaypassword
+XREFto for string 'http://www.xuexinbao.cn/apiv2/login/fillpaypassword' in
+Lcom/wyxt/xuexinbao/activity/XXBUpdatePayPwdActivity;:Lcom/wyxt/xuexinbao/activity/XXBUpdatePayPwdActivity;->SaveChange()V [access_flags=private] @ 0x24ec38
+Lcom/wyxt/xuexinbao/fragment/XXBInfoImprFiveFragment;:Lcom/wyxt/xuexinbao/fragment/XXBInfoImprFiveFragment;->getData(Ljava/lang/String; Ljava/lang/String;)V [access_flags=private] @ 0x2030d8
+
+FOUND: 10 http://co.baifubao.com/content/resource/HTML5/eptos.html
+XREFto for string 'http://co.baifubao.com/content/resource/HTML5/eptos.html' in
+Lcom/baidu/paysdk/ui/WebViewActivity;:Lcom/baidu/paysdk/ui/WebViewActivity;->onCreate(Landroid/os/Bundle;)V [access_flags=public] @ 0x225af0
+
+FOUND: 11 http://www.xuexinbao.cn/apiv2/merchant/submitconsumption
+XREFto for string 'http://www.xuexinbao.cn/apiv2/merchant/submitconsumption' in
+Lcom/wyxt/xuexinbao/activity/XXBAffirmPayInfo;:Lcom/wyxt/xuexinbao/activity/XXBAffirmPayInfo;->getData(I Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V [access_flags=private] @ 0x23731c
+Lcom/wyxt/xuexinbao/activity/XXBMerchantPayActivity;:Lcom/wyxt/xuexinbao/activity/XXBMerchantPayActivity;->tiJiaoBillForFuKuan()V [access_flags=private] @ 0x245d18
+
+FOUND: 12 http://www.xuexinbao.cn/apiv2/merchant/showmerchantpay
+XREFto for string 'http://www.xuexinbao.cn/apiv2/merchant/showmerchantpay' in
+Lcom/wyxt/xuexinbao/activity/XXBAffirmPayInfo;:Lcom/wyxt/xuexinbao/activity/XXBAffirmPayInfo;->getWebData(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V [access_flags=private] @ 0x237504
+Lcom/wyxt/xuexinbao/activity/XXBMerchantPayActivity;:Lcom/wyxt/xuexinbao/activity/XXBMerchantPayActivity;->getDataFromHttps()V [access_flags=private] @ 0x245b94
+
+FOUND: 13 http://www.xuexinbao.cn/apiv2/bill/getneedpaybill
+XREFto for string 'http://www.xuexinbao.cn/apiv2/bill/getneedpaybill' in
+Lcom/wyxt/xuexinbao/activity/XXBRepaymentActivity;:Lcom/wyxt/xuexinbao/activity/XXBRepaymentActivity;->getDataFromHttp()V [access_flags=private] @ 0x2484c4
+Lcom/wyxt/xuexinbao/activity/XXBBillActivity;:Lcom/wyxt/xuexinbao/activity/XXBBillActivity;->getDataFromHttp()V [access_flags=private] @ 0x23a4ac
+
+FOUND: 14 http://www.xuexinbao.cn/apiv2/bill/gethistorybill
+XREFto for string 'http://www.xuexinbao.cn/apiv2/bill/gethistorybill' in
+Lcom/wyxt/xuexinbao/activity/XXBRepaymentActivity;:Lcom/wyxt/xuexinbao/activity/XXBRepaymentActivity;->getDataFromHttpToYiFuBill()V [access_flags=private] @ 0x248520
+Lcom/wyxt/xuexinbao/activity/XXBBillActivity;:Lcom/wyxt/xuexinbao/activity/XXBBillActivity;->getDataFromHttpToYiFuBill()V [access_flags=private] @ 0x23a510
+
+FOUND: 15 http://www.xuexinbao.cn/apiv2/user/getuserstate
+XREFto for string 'http://www.xuexinbao.cn/apiv2/user/getuserstate' in
+Lcom/wyxt/xuexinbao/activity/XXBRepaymentActivity;:Lcom/wyxt/xuexinbao/activity/XXBRepaymentActivity;->getDataFromHttpToYiFuBill()V [access_flags=private] @ 0x248520
+Lcom/wyxt/xuexinbao/activity/XXBUpdatePayPwdActivity;:Lcom/wyxt/xuexinbao/activity/XXBUpdatePayPwdActivity;->getUserStartHttp()V [access_flags=private] @ 0x24ee04
+Lcom/wyxt/xuexinbao/activity/XXBRepaymentActivity;:Lcom/wyxt/xuexinbao/activity/XXBRepaymentActivity;->getDataFromHttp()V [access_flags=private] @ 0x2484c4
+Lcom/wyxt/xuexinbao/activity/XXBStagingActivity;:Lcom/wyxt/xuexinbao/activity/XXBStagingActivity;->doView()V [access_flags=private] @ 0x24ad54
+Lcom/wyxt/xuexinbao/activity/XXBMainActivity;:Lcom/wyxt/xuexinbao/activity/XXBMainActivity;->getDataUserState()V [access_flags=private] @ 0x243244
+Lcom/wyxt/xuexinbao/activity/XXBCashActivity;:Lcom/wyxt/xuexinbao/activity/XXBCashActivity;->getDataUsre()V [access_flags=private] @ 0x23b208
+Lcom/wyxt/xuexinbao/activity/XXBComTelActivity;:Lcom/wyxt/xuexinbao/activity/XXBComTelActivity;->doView()V [access_flags=private] @ 0x23db30
+
+FOUND: 16 http://www.xuexinbao.cn/apiv2/pay/getpaymethod
+XREFto for string 'http://www.xuexinbao.cn/apiv2/pay/getpaymethod' in
+Lcom/wyxt/xuexinbao/activity/XXBCutPayActivity;:Lcom/wyxt/xuexinbao/activity/XXBCutPayActivity;->initView()V [access_flags=private] @ 0x23fb90
+
+FOUND: 17 http://www.xuexinbao.cn/apiv2/user/applyretrievepp
+XREFto for string 'http://www.xuexinbao.cn/apiv2/user/applyretrievepp' in
+Lcom/wyxt/xuexinbao/activity/XXBForgetPayPwdActivity;:Lcom/wyxt/xuexinbao/activity/XXBForgetPayPwdActivity;->present(Ljava/lang/String;)V [access_flags=private] @ 0x2400ac
+
+FOUND: 18 http://www.xuexinbao.cn/apiv2/bill/getbillpayinfo
+XREFto for string 'http://www.xuexinbao.cn/apiv2/bill/getbillpayinfo' in
+Lcom/wyxt/xuexinbao/activity/XXBRepaymentMoneyActivity;:Lcom/wyxt/xuexinbao/activity/XXBRepaymentMoneyActivity;->setSubmit()V [access_flags=private] @ 0x248f38
+
+FOUND: 19 http://www.xuexinbao.cn/apiv2/user/updatepaypassword
+XREFto for string 'http://www.xuexinbao.cn/apiv2/user/updatepaypassword' in
+Lcom/wyxt/xuexinbao/activity/XXBUpdatePayPwdActivity;:Lcom/wyxt/xuexinbao/activity/XXBUpdatePayPwdActivity;->SaveChange()V [access_flags=private] @ 0x24ec38
+Lcom/wyxt/xuexinbao/activity/myinfo/XXBAddPayPwdActivity;:Lcom/wyxt/xuexinbao/activity/myinfo/XXBAddPayPwdActivity;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x2529d4
+
+Total Found: 19
+
+end at:2020-05-29 16:13:25.964911
+total time:0:00:14.801002
+Maximum Memory Usage: 482.16015625 MB

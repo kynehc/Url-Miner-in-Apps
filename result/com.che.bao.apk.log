@@ -1,0 +1,16 @@
+start at:2020-05-29 16:08:54.494937
+
+[*] Analyzing APK ...
+
+[*]url patern found:
+
+[*]url class path found:
+FOUND: 1 http://co.baifubao.com/content/resource/HTML5/eptos.html
+XREFto for string 'http://co.baifubao.com/content/resource/HTML5/eptos.html' in
+Lcom/baidu/paysdk/ui/WebViewActivity;:Lcom/baidu/paysdk/ui/WebViewActivity;->onCreate(Landroid/os/Bundle;)V [access_flags=public] @ 0x16258c
+
+Total Found: 1
+
+end at:2020-05-29 16:09:05.323653
+total time:0:00:10.828716
+Maximum Memory Usage: 419.58203125 MB

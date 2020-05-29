@@ -1,0 +1,101 @@
+start at:2020-05-29 16:12:16.592598
+
+[*] Analyzing APK ...
+
+[*]url patern found:
+FOUND: 1 http://pay.zgzcw.com/unipayrec.action
+XREFto for string 'http://pay.zgzcw.com/unipayrec.action' in
+Lcom/vodone/caibo/activity/Recharge_Wow;:Lcom/vodone/caibo/activity/Recharge_Wow;-><init>()V [access_flags=public constructor] @ 0x49b0d4
+
+
+[*]url class path found:
+FOUND: 2 http://mobilegw.stable.alipay.net/mgw.htm
+XREFto for string 'http://mobilegw.stable.alipay.net/mgw.htm' in
+Lcom/alipay/apmobilesecuritysdk/b/a;:Lcom/alipay/apmobilesecuritysdk/b/a;->c()Ljava/lang/String; [access_flags=public final] @ 0x2f3a1c
+
+FOUND: 3 http://mobilegw-1-64.test.alipay.net/mgw.htm
+XREFto for string 'http://mobilegw-1-64.test.alipay.net/mgw.htm' in
+Lcom/alipay/apmobilesecuritysdk/b/a;:Lcom/alipay/apmobilesecuritysdk/b/a;->c()Ljava/lang/String; [access_flags=public final] @ 0x2f3a1c
+
+FOUND: 4 http://mobilegw.aaa.alipay.net/mgw.htm
+XREFto for string 'http://mobilegw.aaa.alipay.net/mgw.htm' in
+Lcom/alipay/apmobilesecuritysdk/b/a;:Lcom/alipay/apmobilesecuritysdk/b/a;->c()Ljava/lang/String; [access_flags=public final] @ 0x2f3a1c
+
+FOUND: 5 http://h5.m.taobao.com/trade/paySuccess.html?bizOrderId=$OrderId$&
+XREFto for string 'http://h5.m.taobao.com/trade/paySuccess.html?bizOrderId=$OrderId$&' in
+Lcom/alipay/sdk/c/b;:Lcom/alipay/sdk/c/b;->run()V [access_flags=public final] @ 0x2fedb0
+Lcom/alipay/sdk/c/a;:Lcom/alipay/sdk/c/a;->b()Lcom/alipay/sdk/c/a; [access_flags=public static] @ 0x2fec78
+Lcom/alipay/sdk/c/a;:Lcom/alipay/sdk/c/a;-><init>()V [access_flags=public constructor] @ 0x2fec50
+
+FOUND: 6 http://m.alipay.com/?action=h5quit
+XREFto for string 'http://m.alipay.com/?action=h5quit' in
+Lcom/alipay/sdk/j/k;:Lcom/alipay/sdk/j/k;->a(Landroid/webkit/WebView; Ljava/lang/String; Landroid/app/Activity;)Z [access_flags=public static] @ 0x3042a0
+
+FOUND: 7 http://co.baifubao.com/content/mywallet/mobile/score_tip.cfg
+XREFto for string 'http://co.baifubao.com/content/mywallet/mobile/score_tip.cfg' in
+Lcom/baidu/paysdk/beans/e;:Lcom/baidu/paysdk/beans/e;->getUrl()Ljava/lang/String; [access_flags=public] @ 0x355c2c
+
+FOUND: 8 http://www.baidu.com
+XREFto for string 'http://www.baidu.com' in
+Lcom/baidu/paysdk/login/LoginActivity;:Lcom/baidu/paysdk/login/LoginActivity;->buildUrl(I)Ljava/lang/String; [access_flags=private] @ 0x35c3c4
+Lcom/baidu/paysdk/login/LoginActivity$CustWebViewClient;:Lcom/baidu/paysdk/login/LoginActivity$CustWebViewClient;->onPageStarted(Landroid/webkit/WebView; Ljava/lang/String; Landroid/graphics/Bitmap;)V [access_flags=public] @ 0x35b358
+
+FOUND: 9 http://co.baifubao.com/content/resource/HTML5/eptos.html
+XREFto for string 'http://co.baifubao.com/content/resource/HTML5/eptos.html' in
+Lcom/baidu/paysdk/ui/WebViewActivity;:Lcom/baidu/paysdk/ui/WebViewActivity;->onCreate(Landroid/os/Bundle;)V [access_flags=public] @ 0x36ec5c
+
+FOUND: 10 http://huangjun.dev.swiftpass.cn/
+XREFto for string 'http://huangjun.dev.swiftpass.cn/' in
+Lcom/switfpass/pay/MainApplication;:Lcom/switfpass/pay/MainApplication;-><clinit>()V [access_flags=static constructor] @ 0x457cb4
+
+FOUND: 11 http://zhifu.dev.swiftpass.cn/spay/notify
+XREFto for string 'http://zhifu.dev.swiftpass.cn/spay/notify' in
+Lcom/switfpass/pay/activity/PayPlugin;:Lcom/switfpass/pay/activity/PayPlugin;->a(Lcom/switfpass/pay/activity/PayPlugin;)Ljava/lang/String; [access_flags=static synthetic] @ 0x4594b4
+
+FOUND: 12 http://m.soopay.net/ums/log/insert.do/ums/postActivityLog
+XREFto for string 'http://m.soopay.net/ums/log/insert.do/ums/postActivityLog' in
+Lcom/umpay/quickpay/a;:Lcom/umpay/quickpay/a;->a(Landroid/content/Context; Ljava/lang/String;)V [access_flags=public static] @ 0x3167cc
+Lcom/umpay/quickpay/a;:Lcom/umpay/quickpay/a;->b(Landroid/content/Context; Ljava/lang/String;)V [access_flags=public static] @ 0x316dc0
+
+FOUND: 13 http://m.soopay.net/ums/log/insert.do/ums/postClientData
+XREFto for string 'http://m.soopay.net/ums/log/insert.do/ums/postClientData' in
+Lcom/umpay/quickpay/a;:Lcom/umpay/quickpay/a;->a(Lcom/umpay/quickpay/a; Lorg/json/JSONObject;)V [access_flags=static synthetic] @ 0x316980
+
+FOUND: 14 http://m.soopay.net/ums/log/insert.do
+XREFto for string 'http://m.soopay.net/ums/log/insert.do' in
+Lcom/umpay/quickpay/a;:Lcom/umpay/quickpay/a;->b(Landroid/content/Context; Z)V [access_flags=private static] @ 0x316ecc
+
+FOUND: 15 http://m.soopay.net:8080/wirelessbusi/commenurl
+XREFto for string 'http://m.soopay.net:8080/wirelessbusi/commenurl' in
+Lcom/umpay/quickpay/bu;:Lcom/umpay/quickpay/bu;->a(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V [access_flags=private] @ 0x320aa0
+Lcom/umpay/quickpay/bk;:Lcom/umpay/quickpay/bk;->f(Lcom/umpay/quickpay/bk;)V [access_flags=static synthetic] @ 0x31d9e8
+Lcom/umpay/quickpay/av;:Lcom/umpay/quickpay/av;-><init>(Lcom/umpay/quickpay/UmpayActivity;)V [access_flags=public constructor] @ 0x319cfc
+Lcom/umpay/quickpay/bk;:Lcom/umpay/quickpay/bk;->a(Lcom/umpay/quickpay/bk; Lcom/umpay/quickpay/aq;)V [access_flags=static synthetic] @ 0x31cdd4
+Lcom/umpay/quickpay/ct;:Lcom/umpay/quickpay/ct;->a(Lcom/umpay/quickpay/bj; Ljava/lang/String; Ljava/lang/String;)V [access_flags=public final] @ 0x322460
+Lcom/umpay/quickpay/ct;:Lcom/umpay/quickpay/ct;->a()V [access_flags=public final] @ 0x3223d4
+
+FOUND: 16 http://m.soopay.net/ums/log/insert.do/ums/postEvent
+XREFto for string 'http://m.soopay.net/ums/log/insert.do/ums/postEvent' in
+Lcom/umpay/quickpay/g;:Lcom/umpay/quickpay/g;->run()V [access_flags=public final] @ 0x329254
+
+FOUND: 17 http://m.soopay.net/ums/log/insert.do/ums/postErrorLog
+XREFto for string 'http://m.soopay.net/ums/log/insert.do/ums/postErrorLog' in
+Lcom/umpay/quickpay/n;:Lcom/umpay/quickpay/n;->uncaughtException(Ljava/lang/Thread; Ljava/lang/Throwable;)V [access_flags=public final] @ 0x329b10
+
+FOUND: 18 http://yintong.com.cn/secure_server/x.htm
+XREFto for string 'http://yintong.com.cn/secure_server/x.htm' in
+Lcom/vodone/caibo/llytutil/MobileSecurePayHelper;:Lcom/vodone/caibo/llytutil/MobileSecurePayHelper;->sendRequest(Ljava/lang/String;)Lorg/json/JSONObject; [access_flags=public] @ 0x529950
+
+FOUND: 19 http://test.yintong.com.cn
+XREFto for string 'http://test.yintong.com.cn' in
+Lcom/yintong/secure/activity/PayIntro;:Lcom/yintong/secure/activity/PayIntro;->d()Ljava/lang/String; [access_flags=private] @ 0x191cac
+
+FOUND: 20 http://yintong.com.cn
+XREFto for string 'http://yintong.com.cn' in
+Lcom/yintong/secure/activity/PayIntro;:Lcom/yintong/secure/activity/PayIntro;->d()Ljava/lang/String; [access_flags=private] @ 0x191cac
+
+Total Found: 20
+
+end at:2020-05-29 16:13:52.577048
+total time:0:01:35.984450
+Maximum Memory Usage: 2624.0546875 MB

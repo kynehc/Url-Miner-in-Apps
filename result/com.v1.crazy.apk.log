@@ -1,0 +1,81 @@
+start at:2020-05-29 16:11:41.027653
+
+[*] Analyzing APK ...
+
+[*]url patern found:
+FOUND: 1 http://pay.zgzcw.com/unipayrec.action
+XREFto for string 'http://pay.zgzcw.com/unipayrec.action' in
+Lcom/vodone/caibo/activity/Recharge_Wow;:Lcom/vodone/caibo/activity/Recharge_Wow;-><init>()V [access_flags=public constructor] @ 0x3a49a0
+
+
+[*]url class path found:
+FOUND: 2 http://m.soopay.net:8080/wirelessbusi/commenurl
+XREFto for string 'http://m.soopay.net:8080/wirelessbusi/commenurl' in
+Lcom/umpay/quickpay/av;:Lcom/umpay/quickpay/av;-><init>(Lcom/umpay/quickpay/UmpayActivity;)V [access_flags=public constructor] @ 0x29c0d0
+Lcom/umpay/quickpay/bk;:Lcom/umpay/quickpay/bk;->a(Lcom/umpay/quickpay/bk; Lcom/umpay/quickpay/aq;)V [access_flags=static synthetic] @ 0x2ff05c
+Lcom/umpay/quickpay/bk;:Lcom/umpay/quickpay/bk;->f(Lcom/umpay/quickpay/bk;)V [access_flags=static synthetic] @ 0x2ffc70
+Lcom/umpay/quickpay/ct;:Lcom/umpay/quickpay/ct;->a()V [access_flags=public final] @ 0x30465c
+Lcom/umpay/quickpay/bu;:Lcom/umpay/quickpay/bu;->a(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V [access_flags=private] @ 0x302d28
+Lcom/umpay/quickpay/ct;:Lcom/umpay/quickpay/ct;->a(Lcom/umpay/quickpay/bj; Ljava/lang/String; Ljava/lang/String;)V [access_flags=public final] @ 0x3046e8
+
+FOUND: 3 http://m.soopay.net/ums/log/insert.do/ums/postEvent
+XREFto for string 'http://m.soopay.net/ums/log/insert.do/ums/postEvent' in
+Lcom/umpay/quickpay/g;:Lcom/umpay/quickpay/g;->run()V [access_flags=public final] @ 0x30a640
+
+FOUND: 4 http://m.soopay.net/ums/log/insert.do/ums/postErrorLog
+XREFto for string 'http://m.soopay.net/ums/log/insert.do/ums/postErrorLog' in
+Lcom/umpay/quickpay/n;:Lcom/umpay/quickpay/n;->uncaughtException(Ljava/lang/Thread; Ljava/lang/Throwable;)V [access_flags=public final] @ 0x30aefc
+
+FOUND: 5 http://yintong.com.cn/secure_server/x.htm
+XREFto for string 'http://yintong.com.cn/secure_server/x.htm' in
+Lcom/vodone/caibo/llytutil/MobileSecurePayHelper;:Lcom/vodone/caibo/llytutil/MobileSecurePayHelper;->sendRequest(Ljava/lang/String;)Lorg/json/JSONObject; [access_flags=public] @ 0x35715c
+
+FOUND: 6 http://m.alipay.com/?action=h5quit
+XREFto for string 'http://m.alipay.com/?action=h5quit' in
+Lcom/alipay/sdk/app/i;:Lcom/alipay/sdk/app/i;->shouldOverrideUrlLoading(Landroid/webkit/WebView; Ljava/lang/String;)Z [access_flags=public] @ 0x20907c
+
+FOUND: 7 http://mclient.alipay.com/gateway.do
+XREFto for string 'http://mclient.alipay.com/gateway.do' in
+Lcom/alipay/sdk/b/b;:Lcom/alipay/sdk/b/b;->a()Lcom/alipay/sdk/b/e; [access_flags=public static] @ 0x20a31c
+Lcom/alipay/sdk/b/b;:Lcom/alipay/sdk/b/b;->a(Lorg/json/JSONObject; Z)Lcom/alipay/sdk/b/e; [access_flags=private static] @ 0x20a548
+Lcom/alipay/sdk/f/b;:Lcom/alipay/sdk/f/b;->f()Ljava/lang/String; [access_flags=public] @ 0x20c5f4
+
+FOUND: 8 http://co.baifubao.com/content/mywallet/mobile/score_tip.cfg
+XREFto for string 'http://co.baifubao.com/content/mywallet/mobile/score_tip.cfg' in
+Lcom/baidu/paysdk/beans/e;:Lcom/baidu/paysdk/beans/e;->getUrl()Ljava/lang/String; [access_flags=public] @ 0x2204f4
+
+FOUND: 9 http://www.baidu.com
+XREFto for string 'http://www.baidu.com' in
+Lcom/baidu/paysdk/login/LoginActivity;:Lcom/baidu/paysdk/login/LoginActivity;->buildUrl(I)Ljava/lang/String; [access_flags=private] @ 0x226810
+Lcom/baidu/paysdk/login/LoginActivity$CustWebViewClient;:Lcom/baidu/paysdk/login/LoginActivity$CustWebViewClient;->onPageStarted(Landroid/webkit/WebView; Ljava/lang/String; Landroid/graphics/Bitmap;)V [access_flags=public] @ 0x2257a4
+
+FOUND: 10 http://co.baifubao.com/content/resource/HTML5/eptos.html
+XREFto for string 'http://co.baifubao.com/content/resource/HTML5/eptos.html' in
+Lcom/baidu/paysdk/ui/WebViewActivity;:Lcom/baidu/paysdk/ui/WebViewActivity;->onCreate(Landroid/os/Bundle;)V [access_flags=public] @ 0x238434
+
+FOUND: 11 http://m.soopay.net/ums/log/insert.do/ums/postActivityLog
+XREFto for string 'http://m.soopay.net/ums/log/insert.do/ums/postActivityLog' in
+Lcom/umpay/quickpay/a;:Lcom/umpay/quickpay/a;->b(Landroid/content/Context; Ljava/lang/String;)V [access_flags=public static] @ 0x29a0d8
+Lcom/umpay/quickpay/a;:Lcom/umpay/quickpay/a;->a(Landroid/content/Context; Ljava/lang/String;)V [access_flags=public static] @ 0x299ae4
+
+FOUND: 12 http://m.soopay.net/ums/log/insert.do/ums/postClientData
+XREFto for string 'http://m.soopay.net/ums/log/insert.do/ums/postClientData' in
+Lcom/umpay/quickpay/a;:Lcom/umpay/quickpay/a;->a(Lcom/umpay/quickpay/a; Lorg/json/JSONObject;)V [access_flags=static synthetic] @ 0x299c98
+
+FOUND: 13 http://m.soopay.net/ums/log/insert.do
+XREFto for string 'http://m.soopay.net/ums/log/insert.do' in
+Lcom/umpay/quickpay/a;:Lcom/umpay/quickpay/a;->b(Landroid/content/Context; Z)V [access_flags=private static] @ 0x29a1e4
+
+FOUND: 14 http://test.yintong.com.cn
+XREFto for string 'http://test.yintong.com.cn' in
+Lcom/yintong/secure/activity/PayIntro;:Lcom/yintong/secure/activity/PayIntro;->d()Ljava/lang/String; [access_flags=private] @ 0x52de74
+
+FOUND: 15 http://yintong.com.cn
+XREFto for string 'http://yintong.com.cn' in
+Lcom/yintong/secure/activity/PayIntro;:Lcom/yintong/secure/activity/PayIntro;->d()Ljava/lang/String; [access_flags=private] @ 0x52de74
+
+Total Found: 15
+
+end at:2020-05-29 16:12:45.104934
+total time:0:01:04.077281
+Maximum Memory Usage: 1819.50390625 MB

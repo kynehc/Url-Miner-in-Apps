@@ -1,0 +1,45 @@
+start at:2020-05-29 16:10:23.268268
+
+[*] Analyzing APK ...
+
+[*]url patern found:
+
+[*]url class path found:
+FOUND: 1 http://co.baifubao.com/content/mywallet/mobile/score_tip.cfg
+XREFto for string 'http://co.baifubao.com/content/mywallet/mobile/score_tip.cfg' in
+Lcom/baidu/paysdk/beans/n;:Lcom/baidu/paysdk/beans/n;->getUrl()Ljava/lang/String; [access_flags=public] @ 0x405640
+
+FOUND: 2 http://wappass.baidu.com/v2/?bindingret
+XREFto for string 'http://wappass.baidu.com/v2/?bindingret' in
+Lcom/baidu/paysdk/ui/PassNormalizeActivity$a;:Lcom/baidu/paysdk/ui/PassNormalizeActivity$a;->onPageFinished(Landroid/webkit/WebView; Ljava/lang/String;)V [access_flags=public] @ 0x414a94
+
+FOUND: 3 http://www.baidu.com/
+XREFto for string 'http://www.baidu.com/' in
+Lcom/baidu/paysdk/ui/PassNormalizeActivity$a;:Lcom/baidu/paysdk/ui/PassNormalizeActivity$a;->onPageStarted(Landroid/webkit/WebView; Ljava/lang/String; Landroid/graphics/Bitmap;)V [access_flags=public] @ 0x414b3c
+Lcom/baidu/scancode/a/c;:Lcom/baidu/scancode/a/c;->a(J)J [access_flags=public static] @ 0x4456e4
+
+FOUND: 4 http://dxurl.cn/own/yhds/baifubao
+XREFto for string 'http://dxurl.cn/own/yhds/baifubao' in
+Lcom/baidu/paysdk/ui/SecurityCenterActivity;:Lcom/baidu/paysdk/ui/SecurityCenterActivity;->i()V [access_flags=private] @ 0x41cf74
+
+FOUND: 5 http://co.baifubao.com/content/mywallet/h5/safe_tips.html
+XREFto for string 'http://co.baifubao.com/content/mywallet/h5/safe_tips.html' in
+Lcom/baidu/paysdk/ui/SecurityCenterActivity;:Lcom/baidu/paysdk/ui/SecurityCenterActivity;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x41d3e0
+
+FOUND: 6 http://co.baifubao.com/content/mywallet/h5/com_problem.html
+XREFto for string 'http://co.baifubao.com/content/mywallet/h5/com_problem.html' in
+Lcom/baidu/paysdk/ui/SecurityCenterActivity;:Lcom/baidu/paysdk/ui/SecurityCenterActivity;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x41d3e0
+
+FOUND: 7 http://mobile.unionpay.com/getclient?platform=android&type=securepayplugin
+XREFto for string 'http://mobile.unionpay.com/getclient?platform=android&type=securepayplugin' in
+Lcom/unionpay/UPPayAssistEx;:Lcom/unionpay/UPPayAssistEx;-><clinit>()V [access_flags=static constructor] @ 0x53e7c8
+
+FOUND: 8 http://140.207.168.45/g/d
+XREFto for string 'http://140.207.168.45/g/d' in
+Lcom/unionpay/sdk/c;:Lcom/unionpay/sdk/c;-><init>()V [access_flags=private constructor] @ 0x581854
+
+Total Found: 8
+
+end at:2020-05-29 16:10:58.212789
+total time:0:00:34.944521
+Maximum Memory Usage: 1121.69140625 MB

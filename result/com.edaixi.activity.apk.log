@@ -1,0 +1,135 @@
+start at:2020-05-29 16:09:11.027218
+
+[*] Analyzing APK ...
+
+[*]url patern found:
+FOUND: 1 http://payment.edaixi.com/payment/baidu_notify
+XREFto for string 'http://payment.edaixi.com/payment/baidu_notify' in
+Lcom/edaixi/baidupay/BaiDuPayUtil;:Lcom/edaixi/baidupay/BaiDuPayUtil;->createOrderInfo(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String; [access_flags=private] @ 0x4263d8
+
+FOUND: 2 http://payment.edaixi.com/payment/wechat_android_v4
+XREFto for string 'http://payment.edaixi.com/payment/wechat_android_v4' in
+Lcom/edaixi/wechat/WxPayUtil;:Lcom/edaixi/wechat/WxPayUtil;->genProductArgs()Ljava/lang/String; [access_flags=private] @ 0x44809c
+
+FOUND: 3 http://payment.edaixi.com/payment/baidu_notify
+XREFto for string 'http://payment.edaixi.com/payment/baidu_notify' in
+Lcom/edaixi/baidupay/BaiDuPayUtil;:Lcom/edaixi/baidupay/BaiDuPayUtil;->createOrderInfo(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String; [access_flags=private] @ 0x4263d8
+
+FOUND: 4 http://payment.edaixi.com/payment/wechat_android_v4
+XREFto for string 'http://payment.edaixi.com/payment/wechat_android_v4' in
+Lcom/edaixi/wechat/WxPayUtil;:Lcom/edaixi/wechat/WxPayUtil;->genProductArgs()Ljava/lang/String; [access_flags=private] @ 0x44809c
+
+
+[*]url class path found:
+FOUND: 5 http://secclientgw.alipay.com/mobile/switch.xml
+XREFto for string 'http://secclientgw.alipay.com/mobile/switch.xml' in
+Lcom/alipay/mobilesecuritysdk/model/Upload;:Lcom/alipay/mobilesecuritysdk/model/Upload;->communicateSwitch()Lcom/alipay/mobilesecuritysdk/datainfo/GeoResponseInfo; [access_flags=public] @ 0x229ba8
+
+FOUND: 6 http://m.alipay.com/?action=h5quit
+XREFto for string 'http://m.alipay.com/?action=h5quit' in
+Lcom/alipay/sdk/app/H5PayActivity$MyWebViewClient;:Lcom/alipay/sdk/app/H5PayActivity$MyWebViewClient;->shouldOverrideUrlLoading(Landroid/webkit/WebView; Ljava/lang/String;)Z [access_flags=public] @ 0x22bef4
+Lcom/alipay/sdk/app/H5AuthActivity$MyWebViewClient;:Lcom/alipay/sdk/app/H5AuthActivity$MyWebViewClient;->shouldOverrideUrlLoading(Landroid/webkit/WebView; Ljava/lang/String;)Z [access_flags=public] @ 0x22acf8
+
+FOUND: 7 http://mcashier.stable.alipay.net/home/exterfaceAssign.htm?
+XREFto for string 'http://mcashier.stable.alipay.net/home/exterfaceAssign.htm?' in
+Lcom/alipay/sdk/app/PayTask;:Lcom/alipay/sdk/app/PayTask;->b()Ljava/lang/String; [access_flags=private] @ 0x22d354
+Lcom/alipay/sdk/app/PayTask;:Lcom/alipay/sdk/app/PayTask;->a()Ljava/lang/String; [access_flags=private] @ 0x22cf3c
+
+FOUND: 8 http://mobileclientgw.stable.alipay.net/home/exterfaceAssign.htm?
+XREFto for string 'http://mobileclientgw.stable.alipay.net/home/exterfaceAssign.htm?' in
+Lcom/alipay/sdk/app/PayTask;:Lcom/alipay/sdk/app/PayTask;->b()Ljava/lang/String; [access_flags=private] @ 0x22d354
+Lcom/alipay/sdk/app/PayTask;:Lcom/alipay/sdk/app/PayTask;->a()Ljava/lang/String; [access_flags=private] @ 0x22cf3c
+
+FOUND: 9 http://mcgw.alipay.com/gateway.do
+XREFto for string 'http://mcgw.alipay.com/gateway.do' in
+Lcom/alipay/sdk/cons/GlobalConstants;:Lcom/alipay/sdk/cons/GlobalConstants;-><clinit>()V [access_flags=static constructor] @ 0x22fdec
+
+FOUND: 10 http://co.baifubao.com/content/resource/HTML5/eptos.html
+XREFto for string 'http://co.baifubao.com/content/resource/HTML5/eptos.html' in
+Lcom/baidu/paysdk/ui/WebViewActivity;:Lcom/baidu/paysdk/ui/WebViewActivity;->onCreate(Landroid/os/Bundle;)V [access_flags=public] @ 0x30887c
+Lcom/baidu/home/HomeWebViewActivity;:Lcom/baidu/home/HomeWebViewActivity;->onCreate(Landroid/os/Bundle;)V [access_flags=public] @ 0x2b8e34
+
+FOUND: 11 http://co.baifubao.com/content/mywallet/mobile/score_tip.cfg
+XREFto for string 'http://co.baifubao.com/content/mywallet/mobile/score_tip.cfg' in
+Lcom/baidu/paysdk/beans/k;:Lcom/baidu/paysdk/beans/k;->getUrl()Ljava/lang/String; [access_flags=public] @ 0x2e9724
+
+FOUND: 12 http://wappass.baidu.com/v2/?bindingret
+XREFto for string 'http://wappass.baidu.com/v2/?bindingret' in
+Lcom/baidu/paysdk/ui/PassNormalizeActivity$a;:Lcom/baidu/paysdk/ui/PassNormalizeActivity$a;->onPageFinished(Landroid/webkit/WebView; Ljava/lang/String;)V [access_flags=public] @ 0x2fb644
+
+FOUND: 13 http://www.baidu.com/
+XREFto for string 'http://www.baidu.com/' in
+Lcom/baidu/paysdk/ui/PassNormalizeActivity$a;:Lcom/baidu/paysdk/ui/PassNormalizeActivity$a;->onPageStarted(Landroid/webkit/WebView; Ljava/lang/String; Landroid/graphics/Bitmap;)V [access_flags=public] @ 0x2fb6ec
+
+FOUND: 14 http://dxurl.cn/own/yhds/baifubao
+XREFto for string 'http://dxurl.cn/own/yhds/baifubao' in
+Lcom/baidu/paysdk/ui/SecurityCenterActivity;:Lcom/baidu/paysdk/ui/SecurityCenterActivity;->i()V [access_flags=private] @ 0x305750
+
+FOUND: 15 http://co.baifubao.com/content/mywallet/h5/safe_tips.html
+XREFto for string 'http://co.baifubao.com/content/mywallet/h5/safe_tips.html' in
+Lcom/baidu/paysdk/ui/SecurityCenterActivity;:Lcom/baidu/paysdk/ui/SecurityCenterActivity;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x305bbc
+
+FOUND: 16 http://co.baifubao.com/content/mywallet/h5/com_problem.html
+XREFto for string 'http://co.baifubao.com/content/mywallet/h5/com_problem.html' in
+Lcom/baidu/paysdk/ui/SecurityCenterActivity;:Lcom/baidu/paysdk/ui/SecurityCenterActivity;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x305bbc
+
+FOUND: 17 http://open.edaixi.com/client/v1/get_order?
+XREFto for string 'http://open.edaixi.com/client/v1/get_order?' in
+Lcom/edaixi/activity/PayActivity;:Lcom/edaixi/activity/PayActivity;->getClothingDetail()V [access_flags=public] @ 0x40eb0c
+Lcom/edaixi/activity/OrderDetialActivity;:Lcom/edaixi/activity/OrderDetialActivity;->getOrderInfo()V [access_flags=public] @ 0x40b518
+Lcom/edaixi/activity/AppraiseActivity;:Lcom/edaixi/activity/AppraiseActivity;->getOrderInfo()V [access_flags=public] @ 0x3f151c
+
+FOUND: 18 http://open.edaixi.com/client/v1/get_icard?
+XREFto for string 'http://open.edaixi.com/client/v1/get_icard?' in
+Lcom/edaixi/activity/PayActivity;:Lcom/edaixi/activity/PayActivity;->getIcard()V [access_flags=public] @ 0x40eb5c
+Lcom/edaixi/activity/BalanceActivity;:Lcom/edaixi/activity/BalanceActivity;->getIcard()V [access_flags=private] @ 0x3f4140
+Lcom/edaixi/fragment/MineFragment;:Lcom/edaixi/fragment/MineFragment;->getIcard()V [access_flags=private] @ 0x42fbe4
+Lcom/edaixi/activity/RechargeActivity;:Lcom/edaixi/activity/RechargeActivity;->getIcard()V [access_flags=public] @ 0x414c4c
+
+FOUND: 19 http://open.edaixi.com/client/v4/get_order_available_coupons_count?
+XREFto for string 'http://open.edaixi.com/client/v4/get_order_available_coupons_count?' in
+Lcom/edaixi/activity/PayActivity;:Lcom/edaixi/activity/PayActivity;->getOrderCouponInfo()V [access_flags=private] @ 0x40e9bc
+Lcom/edaixi/activity/CouponActivity;:Lcom/edaixi/activity/CouponActivity;->getCouponDesc()V [access_flags=public] @ 0x3f8ca0
+
+FOUND: 20 http://open.edaixi.com/client/v1/get_extra_accounts?
+XREFto for string 'http://open.edaixi.com/client/v1/get_extra_accounts?' in
+Lcom/edaixi/activity/PayActivity;:Lcom/edaixi/activity/PayActivity;->getExtraIcard()V [access_flags=private] @ 0x40e988
+
+FOUND: 21 http://open.edaixi.com/client/v4/get_default_paytype?
+XREFto for string 'http://open.edaixi.com/client/v4/get_default_paytype?' in
+Lcom/edaixi/activity/PayActivity;:Lcom/edaixi/activity/PayActivity;->getOrderDefaultPayType()V [access_flags=public] @ 0x40eb90
+
+FOUND: 22 http://open.edaixi.com/client/v1/activity_promotions?
+XREFto for string 'http://open.edaixi.com/client/v1/activity_promotions?' in
+Lcom/edaixi/activity/RechargePayActivity;:Lcom/edaixi/activity/RechargePayActivity;->getRechargePayInfo()V [access_flags=public] @ 0x415c30
+Lcom/edaixi/activity/PayActivity;:Lcom/edaixi/activity/PayActivity;->getOrderPayInfo()V [access_flags=public] @ 0x40ec38
+
+FOUND: 23 http://open.edaixi.com/client/v1/pay_order2?
+XREFto for string 'http://open.edaixi.com/client/v1/pay_order2?' in
+Lcom/edaixi/activity/PayActivity;:Lcom/edaixi/activity/PayActivity;->getPayOrder(I)V [access_flags=public] @ 0x40ec98
+
+FOUND: 24 http://open.edaixi.com/client/v4/caclulate_order_price?
+XREFto for string 'http://open.edaixi.com/client/v4/caclulate_order_price?' in
+Lcom/edaixi/activity/PayActivity;:Lcom/edaixi/activity/PayActivity;->getPayOrderPrice()V [access_flags=public] @ 0x40ed38
+
+FOUND: 25 http://open.edaixi.com/client/v4/get_recharge_amount?
+XREFto for string 'http://open.edaixi.com/client/v4/get_recharge_amount?' in
+Lcom/edaixi/activity/PayActivity;:Lcom/edaixi/activity/PayActivity;->getRechargeInfo()V [access_flags=public] @ 0x40eda0
+
+FOUND: 26 http://open.edaixi.com/client/v1/icard_recharge?
+XREFto for string 'http://open.edaixi.com/client/v1/icard_recharge?' in
+Lcom/edaixi/activity/RechargePayActivity;:Lcom/edaixi/activity/RechargePayActivity;->getRechargePay()V [access_flags=public] @ 0x415ba4
+
+FOUND: 27 http://payment.edaixi.com/payment/baidu_notify
+XREFto for string 'http://payment.edaixi.com/payment/baidu_notify' in
+Lcom/edaixi/baidupay/BaiDuPayUtil;:Lcom/edaixi/baidupay/BaiDuPayUtil;->createOrderInfo(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String; [access_flags=private] @ 0x4263d8
+
+FOUND: 28 http://payment.edaixi.com/payment/wechat_android_v4
+XREFto for string 'http://payment.edaixi.com/payment/wechat_android_v4' in
+Lcom/edaixi/wechat/WxPayUtil;:Lcom/edaixi/wechat/WxPayUtil;->genProductArgs()Ljava/lang/String; [access_flags=private] @ 0x44809c
+
+Total Found: 28
+
+end at:2020-05-29 16:09:45.291639
+total time:0:00:34.264421
+Maximum Memory Usage: 1064.80078125 MB
